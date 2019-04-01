@@ -1,13 +1,13 @@
 {
-  "name": "use-npm",
+  "name": "force-npm",
   "version": "0.0.1",
   "description": "Force users to use npm instead of yarn.",
   "author": "Rob Hilgefort",
   "license": "ISC",
-  "repository": "rjhilgefort/use-npm",
+  "repository": "rjhilgefort/force-npm",
   "main": "index.js",
   "bin": {
-    "use-npm": "cli.js"
+    "force-npm": "cli.js"
   },
   "scripts": {
     "try": "node cli.js",

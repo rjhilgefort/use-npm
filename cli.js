@@ -2,7 +2,7 @@
 
 var fs = require('fs')
 var argv = require('minimist')(process.argv.slice(2));
-var useNpm = require('.')
+var forceNpm = require('.')
 
 var message
 if (argv.f) {
@@ -11,4 +11,4 @@ if (argv.f) {
   message = argv.m
 }
 
-useNpm(message)
+forceNpm(message)

@@ -1,4 +1,4 @@
-This project uses yarn instead of npm. Please upgrade!
+This project uses npm instead of yarn. Please upgrade!
 See https://www.npmjs.com.
 
 To install dependencies:
