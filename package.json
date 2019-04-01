@@ -1,18 +1,18 @@
 {
-  "name": "use-yarn",
-  "version": "2.2.0",
-  "description": "Force users to use yarn instead of npm.",
+  "name": "use-npm",
+  "version": "0.0.1",
+  "description": "Force users to use npm instead of yarn.",
+  "author": "Rob Hilgefort",
+  "license": "ISC",
+  "repository": "rjhilgefort/use-npm",
   "main": "index.js",
   "bin": {
-    "use-yarn": "cli.js"
+    "use-npm": "cli.js"
   },
   "scripts": {
     "try": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "AndersDJohnson/use-yarn",
-  "author": "Anders D. Johnson",
-  "license": "ISC",
   "dependencies": {
     "is-npm-not-yarn": "^2.0.3",
     "minimist": "^1.2.0"

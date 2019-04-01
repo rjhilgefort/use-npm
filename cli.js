@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
 var fs = require('fs')
-var path = require('path')
 var argv = require('minimist')(process.argv.slice(2));
-var useYarn = require('.')
+var useNpm = require('.')
 
 var message
 if (argv.f) {
@@ -12,4 +11,4 @@ if (argv.f) {
   message = argv.m
 }
 
-useYarn(message)
+useNpm(message)
