@@ -1,4 +1,4 @@
-#force-npm 
+# force-npm 
 > Force users to use `npm` instead of `yarn`.
 
 If run from `yarn` instead of `npm`, the process will exit with error code `1`
